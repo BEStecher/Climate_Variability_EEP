@@ -53,7 +53,7 @@ plt.title('G. ruber δ18O Values Depending on Latitude in the EEP',fontsize=20, 
 When making my age models, I attempted to connect the δ18O values with the depth at which those δ18O values were collected. Since there is not a standard space between the depths at which the forams were collected, I made several functions that calculate the age given the difference in depth and δ18O value. Below is the general method I used and the collapsible button below will show you all of the code I used to make the age model of Rippert et al. 2017 data. 
 
 <details>
-  <summary>Code for Age Model</summary>
+  <summary markdown="span">Code for Age Model</summary>
   
   ```markdown
 	# Depth - m
