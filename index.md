@@ -50,12 +50,14 @@ plt.title('G. ruber δ18O Values Depending on Latitude in the EEP',fontsize=20, 
 ![Latitude_Image_02](https://user-images.githubusercontent.com/71152705/125203147-4dc04880-e245-11eb-9851-b256ceee9a56.png)
 
 #### Age Models 
-When making my age models, I attempted to connect the δ18O values with the depth at which those δ18O values were collected. Since there is not a standard space between the depths at which the forams were collected, I made several functions that calculate the age given the difference in depth and δ18O value. Below is the general method I used and the collapsible button below will show you all of the code I used to make the age model of Rippert et al. 2017 data. 
+When making my age models, I attempted to connect the δ18O values with the depth at which those δ18O values were collected. Since there is not a standard space between the depths at which the forams were collected, I made several functions that calculate the age given the difference in depth and δ18O value. Below is all of the code I used to make the age model of Rippert et al. 2017 data. While it is not perfect towards the end, it is mostly incredibly accurate. 
+
+{::options parse_block_html="true" /}
 
 <details>
   <summary markdown="span">Code for Age Model</summary>
   
-  ```markdown
+  ```python
 	# Depth - m
 	# Age - ky BP
 	# d18O - [per mil PDB] G.hexagonus
@@ -192,4 +194,6 @@ plt.show()
 	![Age_Model](https://user-images.githubusercontent.com/71152705/125204123-9f6ad200-e249-11eb-913b-b0e0666fe623.png)
 
 </details>
+<br/>
 
+{::options parse_block_html="false" /}
