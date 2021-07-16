@@ -2,6 +2,10 @@
 
 This page holds information on how to incorporate Python into understanding and evaluating proxy records (in this case G. ruber δ18O data) in the Eastern Equatorial Pacific. All of the data can be found on the Wiki page of this repository. The code below is an portion of the work I did for Celeste Pallone and Jerry McManus from my internship with them at Lamont-Doherty Earth Observatory at Columbia University. If you have any questions or comments feel free to message me at @BrynGlacier on Twitter. 
 
+## Poster for the 2021 Earth Institute Research Showcase
+
+![BrynStecherPoster-1](https://user-images.githubusercontent.com/71152705/125997845-2afb85be-8d8f-415f-abfc-697f54bdf44b.png)
+
 ### Obersving How δ18O Values Change With Latitude
 Below I am investigating to see the relationship between all δ18O values during each of their respectve studies and the latitude at which the core holding the δ18O values is located. 
 #### Boxplot Figure with swarmplot
@@ -50,7 +54,7 @@ plt.title('G. ruber δ18O Values Depending on Latitude in the EEP',fontsize=20, 
 ![Latitude_Image_02](https://user-images.githubusercontent.com/71152705/125203147-4dc04880-e245-11eb-9851-b256ceee9a56.png)
 
 #### Age Models 
-When making my age models, I attempted to connect the δ18O values with the depth at which those δ18O values were collected. Since there is not a standard space between the depths at which the forams were collected, I made several functions that calculate the age given the difference in depth and δ18O value. Below is all of the code I used to make the age model of Rippert et al. 2017 data. While it is not perfect towards the end, it is mostly incredibly accurate. 
+When making my age models, I attempted to connect the δ18O values with the depth at which those δ18O values were collected. Since there is not a standard space between the depths at which the forams were collected, I made several functions that calculate the age given the difference in depth and δ18O value. Below is all of the code I used to make the age model of Rippert et al. 2017 data. While it is not perfect towards the end, it is mostly incredibly accurate. This plot will detect the exact age given the depth it is given, whether or not the given depth was in the Rippert dataset. 
 
 {::options parse_block_html="true" /}
 
