@@ -195,9 +195,10 @@ plt.title(' Age Model Comparison (Real Age vs. Calculated Age Model)', fontsize=
 plt.show()
   
   ```
-	![Age_Model](https://user-images.githubusercontent.com/71152705/125204123-9f6ad200-e249-11eb-913b-b0e0666fe623.png)
+	
 
 </details>
 <br/>
+![Age_Model](https://user-images.githubusercontent.com/71152705/125204123-9f6ad200-e249-11eb-913b-b0e0666fe623.png) 
 
 {::options parse_block_html="false" /}
